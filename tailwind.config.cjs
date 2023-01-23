@@ -10,7 +10,16 @@ module.exports = {
             "graphic-design-text": "#25564b",
             "photography-text": "#19536b",
             "footer-text": "#458c7e",
-            "white-main": "#FFFBF8"
+            "white-main": "#FFFBF8",
+            'test-color': "#24303B",
+            'underline-yellow': "#fad400",
+            'underline-red': "#fe7867",
+            'second-text': "#5a636c",
+            'gray-main': "#a7abae"
+        },
+        fontFamily: {
+            'first-font': 'Barlow, sans-serif',
+            'second-font': 'Fraunces, serif'
         },
         extend: {
             backgroundImage: {
