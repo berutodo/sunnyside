@@ -14,17 +14,26 @@
 
 <body>
     <!-- Mobile -->
-    <div style="background-image: url('images/mobile/image-header.jpg'); background-position: center;" class="flex flex-col text-white-main sm:hidden bg-center bg-no-repeat bg-cover h-[800px]">
+    <div style="background-image: url('images/mobile/image-header.jpg'); background-position: center;" class="flex flex-col text-white-main sm:hidden bg-center bg-no-repeat bg-cover h-[600px]">
         <div class="flex flex-row justify-between  items-center p-5">
             <h1 class="text-3xl font-bold ml-3">sunnyside</h1>
             <a class="sm:hidden block" href="#"><img src="images/icon-hamburger.svg" alt=""></a>
         </div>
         <div class="flex flex-col justify-center text-center gap-10 mt-28 items-center">
             <h1 class="text-5xl font-bold  font-second-font -mt-10 mb-10">WE ARE CREATIVES</h1>
-            <img class="w-20 h-30" src="images/icon-arrow-down.svg" alt="">
-
+            <img class="sm:w-20 sm:h-30" src="images/icon-arrow-down.svg" alt="">
+            <div class="w-4/5 h-80 bg-white-main hidden justify-center absolute top-32 left-auto">
+                <div class="flex flex-col items-center text-xl gap-5 justify-center text-test-color font-semibold">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Projects</a>
+                    <a href="#"><button class="w-32 h-10 rounded-3xl bg-underline-yellow font-bold font-second-font text-test-color">CONTACT</button></a>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!--End-->
     <div style="background-image: url('images/desktop/image-header.jpg'); background-position: center;" class="hidden text-white-main sm:flex sm:flex-col bg-center bg-no-repeat bg-cover h-[800px]">
         <div class="flex flex-row justify-between text-white items-center p-5">
             <h1 class="text-3xl font-bold ml-3">sunnyside</h1>
@@ -92,9 +101,9 @@
         </div>
     </div>
 
-    <div class="flex flex-col bg-white-main p-5 pt-20 sm:mt-10 sm:p-20 gap-6">
+    <div class="flex flex-col bg-white-main p-5 pt-20 sm:pt-36 sm:pb-36 sm:mt-10 sm:p-20 gap-6">
         <h1 class="text-center text-gray-main font-bold font-second-font tracking-widest">CLIENT TESTIMONIALS</h1>
-        <div class="cards flex flex-col sm:flex-row gap-16">
+        <div class="cards flex flex-col sm:flex-row sm:mt-10 gap-16">
             <div class="flex flex-col text-center justify-center text-lg gap-8">
                 <img class="self-center rounded-full w-20 h-20" src="./images/image-emily.jpg" alt="">
                 <h1 class="font-first-font text-second-text font-bold">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</h1>
@@ -139,15 +148,15 @@
     <div class="flex flex-col items-center gap-6 text-footer-text bg-footer-green">
         <h1 class="text-4xl p-8 font-extrabold ">sunnyside</h1>
         <div class="flex gap-14">
-            <a href="">About</a>
-            <a href="">Services</a>
-            <a href="">Projects</a>
+            <a class="cursor-pointer hover:text-white-main" href="">About</a>
+            <a class="cursor-pointer hover:text-white-main" href="">Services</a>
+            <a class="cursor-pointer hover:text-white-main" href="">Projects</a>
         </div>
         <div class="flex flex-row gap-8 p-10">
-            <img src="/images/icon-facebook.svg" alt="">
-            <img src="/images/icon-instagram.svg" alt="">
-            <img src="/images/icon-twitter.svg" alt="">
-            <img src="/images/icon-pinterest.svg" alt="">
+            <img class="cursor-pointer hover:text-white-main" src="/images/icon-facebook.svg" alt="">
+            <img class="cursor-pointer hover:text-white-main" src="/images/icon-instagram.svg" alt="">
+            <img class="cursor-pointer hover:text-white-main" src="/images/icon-twitter.svg" alt="">
+            <img class="cursor-pointer hover:filter" src="/images/icon-pinterest.svg" alt="">
         </div>
     </div>
 </body>
